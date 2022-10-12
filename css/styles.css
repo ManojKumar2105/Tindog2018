@@ -1,0 +1,199 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  font-size: 4.5rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.rot-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  top: 270px;
+  right: 27%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 38px;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+.nav-item {
+  padding-right: 50px;
+}
+
+.p1 {
+  color: #8f8f8f;
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 0 40px 0 40px;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.checkbox {
+  color: #EF8172;
+  font-weight: bold;
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+
+.bullseye {
+  color: #EF8172;
+  font-weight: bold;
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+
+.love {
+  color: #EF8172;
+  font-weight: bold;
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+
+.love:hover {
+  color: #FF4C68;
+}
+
+.checkbox:hover {
+  color: #FF4C68;
+}
+
+.bullseye:hover {
+  color: #FF4C68;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #EF8172;
+  color: white;
+}
+
+.dog-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.logo-imgs {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#lady-img {
+  width: 20%;
+  border-radius: 100%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.meet {
+  margin-top: 35px;
+}
+
+@media(max-width:1003px) {
+  #title {
+    text-align: center;
+  }
+
+  .rot-img {
+    position: static;
+    transform: rotate(0);
+    /*To Straight up */
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 12% 4%;
+}
+
+.last {
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  font-size: 3.8rem;
+  line-height: 1.5;
+  margin-bottom: 80px;
+}
+
+#footer {
+  padding: 6% 5%;
+  text-align: center;
+  background-color: white;
+  line-height: 5.5;
+}
+
+.twit {
+  margin-right: 50px;
+}
+
+.face {
+  margin-right: 50px;
+}
+
+.insta {
+  margin-right: 50px;
+}
